@@ -140,23 +140,48 @@
 							<p>Use the following form to contact me, or send me a message by email or social networks.</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="submit">
-										<div class="field half first">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" placeholder="Your name" />
-										</div>
+								
+								
+								
+<!-- 								<form action="/cgi-bin/FormMail.pl" method="POST" class="contact-form wow animated fadeInUp" data-wow-duration="1.5s">
+                            <div class="row"> -->
+<!--                                 <input type=hidden name="recipient" value="info@cromnia-app.com"> -->
+<!--                                 <input type=hidden name="subject" value="Nuovo messaggio dal sito web!"> -->
+<!--                                 <div class="col-sm-6"><input type=text name="realname" placeholder="Nome e Cognome"></div> -->
+<!--                                 <div class="col-sm-6"><input type=text name="email" placeholder="Indirizzo mail"></div> -->
+<!--                                 <div class="col-sm-12"><textarea name="messaggio" cols="40" rows="5" placeholder="Messaggio"></textarea></div> -->
+<!--                                 <div class="col-sm-12 text-center"><input type="Submit" value="Invia" class="btn"></div> -->
+<!--                                 <input type=hidden name="required" value="email,realname,messaggio"> -->
+<!--                             </div>
+                        </form> -->
+                        
+                        
+                        
+									<form method="POST" action="./FormMail.pl">
+											<input type=hidden name="recipient" value="info@andreaaletto.me">
+                                			<input type=hidden name="subject" value="Nuovo messaggio dal sito web!">
+											<div class="field half first">
+												<label for="name">Name</label>
+												<input type="text" name="realname" id="name" placeholder="Your name" />
+											</div>
 										<div class="field half">
 											<label for="email">Email</label>
 											<input type="text" name="email" id="email" placeholder="Your email" />
 										</div>
 										<div class="field">
 											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="5" placeholder="Your message for me..."></textarea>
+											<textarea name="messaggio" id="message" rows="5" placeholder="Your message for me..."></textarea>
 										</div>
 										<ul class="actions">
 											<li><a href="" class="button submit">Send Message</a></li>
 										</ul>
+										<input type=hidden name="required" value="email,realname,messaggio">
 									</form>
+									
+									
+									
+									
+									
 								</section>
 								<section>
 									<ul class="contact">
