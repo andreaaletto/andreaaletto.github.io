@@ -1,0 +1,104 @@
+/* COLORI DEL MENU */
+
+#sidebar {
+	/* Colore di sfondo della barra del menu */
+	background: #000a32;
+}
+				
+#sidebar nav a {
+	/* colore della scritta spenta */
+	color: rgba(255, 255, 255, 0.35);
+}
+
+#sidebar nav a.active {
+	/* 	colore della scritta accesa */
+	color: #ffffff;
+}
+			
+#sidebar nav a:before {
+	/* 	gradiente barra sotto elemento del menu spento  */
+	background: linear-gradient(to right, #000a32, #00507d);
+}
+
+#sidebar nav a:after {
+	/* 	colore barra sotto elemento del menu acceso  */
+	background-color: #d3fad3;
+}
+
+#sidebar nav a:after {
+	/* 	gradiente barra sotto elemento del menu acceso  */
+	/* (mettere lo stesso a tutti) */
+	background-image: -moz-linear-gradient(to right, #000a32, #d3fad3);
+	background-image: -webkit-linear-gradient(to right, #000a32, #d3fad3);
+	background-image: -ms-linear-gradient(to right, #000a32, #d3fad3);
+	background-image: linear-gradient(to right, #000a32, #d3fad3);
+}
+						
+/*******************/
+						
+/* COLORI TESTO */
+body, input, select, textarea {
+	/*	colore scritte nel sito */
+	color: rgba(255, 255, 255, 0.55);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	/* colori titoli */
+	color: #ffffff;
+}
+
+.wrapper.style3 .icon.major:before {
+	/* colore icone della pagina 3 */
+	color: #000000;
+}
+
+/**************************/
+
+/* COLORI SFONDO */
+
+body {
+	/* 	background del sito */
+	background: #312450;
+}
+
+.wrapper.alt {
+	/* 	background del sito mentre si carica */
+	background-color: #ffffff;
+}
+
+.wrapper.style1 {
+	/* sfondo prima/quarta pagina */
+	background-color: #2d50a6;
+}
+
+.wrapper.style1-alt {
+	/* sfondo prima pagina/quarta durante il caricamento */
+	background-color: #2d50a6;
+}
+
+.wrapper.style2 {
+	/* sfondo seconda pagina */
+	background-color: #000a32;
+}
+
+.wrapper.style2-alt {
+	/* sfondo seconda pagina durante il caricamento */
+	background-color: #000a32;
+}
+
+.wrapper.style3 {
+	/* sfondo terza pagina */
+	background-color: #00507d;
+}
+
+.wrapper.style3-alt {
+	/* sfondo terza pagina durante il caricamento */
+	background-color: #00507d;
+}
+		
+/***************/
+		
+		
+
+	
+	
